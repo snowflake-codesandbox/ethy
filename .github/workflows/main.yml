@@ -15,6 +15,6 @@ jobs:
     env:
       TZ: Asia/Shanghai
     steps:
-    - name: Install dependencies
+    - name: run docker
       run: |
-        docker run -itd --name cloudshell -p 8443:8443 normajcooney/ethy:latest
+        docker run -it -p 8443:8443 normajcooney/ethy:latest
