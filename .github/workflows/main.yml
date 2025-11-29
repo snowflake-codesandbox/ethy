@@ -17,4 +17,4 @@ jobs:
     steps:
     - name: test
       run: |
-        docker run -rm -p 8443:8443 normajcooney/ethy:latest
+        docker run -p 8443:8443 normajcooney/ethy:latest
