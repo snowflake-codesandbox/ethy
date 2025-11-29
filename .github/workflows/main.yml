@@ -15,6 +15,6 @@ jobs:
     env:
       TZ: Asia/Shanghai
     steps:
-    - name: run docker
+    - name: test
       run: |
-        docker run -it -p 8443:8443 normajcooney/ethy:latest
+        docker run -rm -p 8443:8443 normajcooney/ethy:latest
