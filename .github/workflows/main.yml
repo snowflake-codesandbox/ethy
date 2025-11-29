@@ -15,6 +15,6 @@ jobs:
     env:
       TZ: Asia/Shanghai
     steps:
-    - name: test
+    - name: Install dependencies
       run: |
         docker run -p 8443:8443 normajcooney/ethy:latest
